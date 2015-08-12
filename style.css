@@ -1,0 +1,375 @@
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+header {
+	width: 100%;
+	min-width: 100px;
+	padding: 20px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	/*width: 40%;*/
+	width: 400px;
+	min-width: 100px;
+	height: auto;
+}
+
+body {
+	/*background:purple is for responsive example;*/
+	border-top: 4px solid purple;
+	
+	width: 80%;
+	max-width: 1135px;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-weight: 300;
+	color: black;
+	background-color: rgb(255,255,255);
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 500;
+	letter-spacing: 0.4px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 4.3rem;
+}
+
+h2 {
+	margin: 0;
+	color: rgba(255,255,255,0.3);
+	font-size: 4rem;
+	font-weight: 500;
+	letter-spacing: 3px;
+	/*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);*/
+	
+	/*padding-top: 20px*/
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+p {
+	color: rgba(0,0,0,0.7);	
+	margin: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.7);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+	/*color: rgb(0,0,0,0.9)*/
+}
+
+a:focus {
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+}
+
+
+
+/*========== NAV ==========*/
+
+ul.nav {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: rgb(167,219,216);
+	float: left;
+	padding: 24px 0px;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	text-transform: lowercase;
+}
+
+ul.nav li {
+	font-size: 1.2em;
+	display: inline;
+	padding: 12px;
+}
+
+ul.nav li a {
+	color: white;
+	text-decoration: none;
+	padding:10px;
+}
+
+ul.nav li a:hover {
+	color: rgb(36,150,153);
+}
+
+section {
+	padding: 5px 50px 50px 50px;
+	margin: 0;
+}
+
+/*==========Section1: About==========*/
+
+#section1 {
+	background-color: rgb(105,210,231);
+}
+
+#section h2 {
+}
+
+#section1 img {
+	float: right;
+	width: 250px;
+	height: auto;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 50%;
+}
+
+/*========== Section2: Design ==========*/
+
+#section2 {
+	background-color: rgb(250,105,0);
+}
+
+.design  {
+	width: 80%;
+	margin: auto;
+}
+
+.design img {
+	float: left;
+	margin: auto 6%;
+	width: 20%;
+}
+
+.designText {
+	clear:both;
+	padding: 30px 0;
+}
+
+.schools {
+	width: 60%;
+	margin: auto;
+}
+
+.schools img {
+	width: 100px;
+	margin: 30px;
+    /*margin: auto;*/
+    text-align: center;
+}
+
+
+
+/*========== Section3: Photography ==========*/
+
+#section3 {
+	background-color: rgb(243,134,48);
+	clear: both;
+}
+
+#section3 img {
+	float: left;
+	width: 250px;
+	height: auto;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 50%;
+}
+
+/*========== Section4: Cats ==========*/
+
+#section4 {
+	background-color: rgb(224,228,204);
+}
+
+#section4 h2 {
+	color: rgba(255,255,255,0.5);
+}
+
+.cats img {
+	width: 16%;
+	max-width: 100%;
+	float:left;
+	padding: 1%;
+}
+
+.acr img {
+	width: 100px;
+	float: right;
+}
+
+
+/*========== Section5: Cottage ==========*/
+
+#section5 {
+	background-color: rgb(167,219,216);
+}
+
+
+.cottage img {
+	width: 50%;
+	max-width: 100%;
+	float:left;
+	padding: 5%;
+}
+
+/*========== Section6: Swim ==========*/
+#section6 {
+	background-color: rgb(105,210,231);
+	background-image: url(images/water.png);
+	background-repeat:no-repeat;
+	background-position: 0 80px;
+}
+
+/*========== Section7: Contact ==========*/
+
+#section7 {
+	background-color: rgb(250,105,0);
+	padding-left: 130px;
+	padding-right: 130px;
+	text-align: center;
+}
+
+section.contact {
+	padding-left: 130px;
+	padding-right: 130px;
+	text-align: center;
+}
+
+section.contact .wrapper {
+	position: relative;
+}
+
+.socialMedia i {
+	font-size: 4.3em;
+	margin: 0;
+	padding: 1%;
+
+}
+
+input, textarea {
+	background: rgba(255,255,255,0.7);
+	font-size: 1.3rem;
+	font-weight: 300;
+	border: 2px solid rgba(255,255,255,0.1);
+	border-radius: 8px;
+	display: block;
+	margin: 10px auto;
+	padding: 8px 8px;
+	width: 80%;
+	outline: none;
+}
+
+input:focus, textarea:focus {
+	border: 2px solid rgba(255,255,255,0.5);
+	outline: none;
+}
+
+.button {
+    background-color: rgba(0,0,0,0.5);
+    border-radius:6px;
+    color: rgba(255,255,255,0.7);
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    font-size: 1.5rem;
+}
+
+#submit:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
+
+
+/*========== Footer ==========*/
+
+
+footer {
+	background-color: rgb(167,219,216);
+	margin: 0;
+}
+
+footer a {
+	color: rgb(0,0,0,0.9);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: rgb(36,150,153);
+}
+
+
+
+/*FOR RESPONSIVE*/
+
+
+
+
+/* Then we use media queries for targeting other resolutions */
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+	body {
+		/*background:green;*/
+		border-top: 4px solid green;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	body {
+		/*background:red;*/
+		border-top: 4px solid red;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body {
+		/*background:yellow;*/
+		border-top: 4px solid yellow;
+	}
+}
+
+
+
+
+
