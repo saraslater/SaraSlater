@@ -181,7 +181,7 @@ section {
 	float: left;
 	width: 250px;
 	height: auto;
-	padding-right: 10px;
+	padding-right: 20px;
 	padding-bottom: 10px;
 	border-radius: 50%;
 }
@@ -232,7 +232,12 @@ section {
 	background-color: rgb(105,210,231);
 	background-image: url(images/water.png);
 	background-position: 0 80px;
-	/*background-repeat: repeat-y;*/
+	background-repeat: no-repeat;
+}
+
+#secion6 p span {
+	display: block;
+	padding-bottom: 50px;
 }
 
 /*========== Section7: Contact ==========*/
