@@ -203,6 +203,11 @@ section {
 	padding: 1%;
 }
 
+#section4 p {
+	clear:both;
+	padding-top: 20px;
+}
+
 .acr img {
 	width: 100px;
 	float: right;
