@@ -241,7 +241,7 @@ section {
 #section6 {
 	background-color: rgb(105,210,231);
 	background-image: url(images/water.png);
-	background-position: 80px;
+	background-position: 0 80px;
 	/*background-repeat: repeat-y;*/
 }
 
