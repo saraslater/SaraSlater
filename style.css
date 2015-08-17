@@ -232,13 +232,13 @@ section {
 	background-color: rgb(105,210,231);
 	background-image: url(images/water.png);
 	background-position: 0 80px;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;	
 }
 
-#secion6 p span {
-	display: block;
-	padding-bottom: 50px;
+#section6 div {
+	padding-bottom: 20px;
 }
+
 
 /*========== Section7: Contact ==========*/
 
