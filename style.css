@@ -115,7 +115,7 @@ ul.nav li a:hover {
 }
 
 section {
-	padding: 5px 50px 50px 50px;
+	padding: 5px 100px 50px 100px;
 	margin: 0;
 }
 
@@ -364,6 +364,11 @@ footer a:hover {
 		letter-spacing: 3px;
 	}
 
+	section {
+		padding: 5px 75px 50px 75px;
+		margin: 0;
+	}	
+
 }
  
 /*********** Landscape phone to portrait tablet ***********/
@@ -387,6 +392,11 @@ footer a:hover {
 		h2 {
 			margin: 0;
 			font-size: 3rem;
+		}
+
+		section {
+			padding: 5px 50px 50px 50px;
+			margin: 0;
 		}
 
 		#section1 {
@@ -479,6 +489,11 @@ footer a:hover {
 			margin: 0;
 			font-size: 3rem;
 		}
+
+		section {
+			padding: 5px 25px 25px 25px;
+			margin: 0;
+		}		
 
 		.design img {
 			width: 20%;
